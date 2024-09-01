@@ -1,0 +1,18 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "dayjs": "npm:dayjs@1.11.11",
+    "express": "npm:@4.19.2",
+    "google-auth-library": "npm:@9.11.0",
+    "jsonwebtoken": "npm:@9.0.2",
+    "lodash-es": "npm:@4.17.21",
+    "mongoose": "npm:@8.4.0",
+    "nanoid": "npm:@5.0.7",
+    "pino": "npm:@9.1.0",
+    "pino-pretty": "npm:@11.1.0",
+    "zod": "npm:@3.23.8",
+    "$std/": "https://deno.land/std@0.216.0/"
+  }
+}
