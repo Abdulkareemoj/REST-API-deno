@@ -25,7 +25,7 @@ export function createAccessToken({
 }): string {
   const accessToken = signJwt(
     { ...user, session: session._id },
-    { expiresIn: process.env.ACCESS_TOKEN } //15 min
+    { expiresIn: Deno.env.get("ACCESS_TOKEN") } //15 min
   );
   return accessToken;
 }
